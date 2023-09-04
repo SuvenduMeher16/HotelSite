@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Hotel website</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="main.css">
+        <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+        <link rel = "icon" href = "images/logo.png" type = "image/png">
+    </head>
+    <body>
+        
+        <!-- header -->
+        <header class = "header" id = "header">
+            <div class = "head-top">
+                <div class = "site-name">
+                    <span>Suvendu</span>
+                </div>
+                <div class = "site-nav">
+                    <span id = "nav-btn">MENU <i class = "fas fa-bars"></i></span>
+                </div>
+            </div>
+
+            <div class = "head-bottom flex">
+                <h1>THE GRAND-INN</h1>
+                <h2>NICE AND COMFORTABLE PLACE TO STAY</h2>
+                <p>"Welcome to The Grand-INN, where opulence meets unparalleled hospitality. Nestled in a breathtaking location, our hotel offers a haven of refined elegance. Indulge in our lavish accommodations, exquisite dining options, and world-class amenities. Immerse yourself in a realm of timeless luxury and create unforgettable memories with us."</p>
+                <button type = "button" class = "head-btn">GET STARTED</button>
+            </div>
+        </header>
+        <!-- end of header -->
+
+
+
+        <!-- side navbar -->
+        <div class = "sidenav" id = "sidenav">
+            <span class = "cancel-btn" id = "cancel-btn">
+                <i class = "fas fa-times"></i>
+            </span>
+
+            <ul class = "navbar">
+                <li><a href = "#header">home</a></li>
+                <li><a href = "#services">services</a></li>
+                <li><a href = "#rooms">rooms</a></li>
+                <li><a href = "#customers">customers</a></li>
+                <li><a href = "#gallery">Image Gallery</a></li>
+            </ul>
+            <button class = "btn sign-up">sign up</button>
+            <button class = "btn log-in">log in</button>
+        </div>
+        <!-- end of side navbar -->
+
+
+
+        <!-- fullscreen modal -->
+        <div id = "modal"></div>
+        <!-- end of fullscreen modal -->
+
+
+
+        <!-- body content  -->
+        <section class = "services sec-width" id = "services">
+            <div class = "title">
+                <h2>services</h2>
+            </div>
+            <div class = "services-container">
+                <!-- single service -->
+                <article class = "service">
+                    <div class = "service-icon">
+                        <span>
+                            <i class = "fas fa-utensils"></i>
+                        </span>
+                    </div>
+                    <div class = "service-content">
+                        <h2>Food Service / Food Runner</h2>
+                        <p>Our luxury hotel's food services epitomize culinary excellence. Our award-winning chefs craft extraordinary gastronomic experiences, combining innovative techniques with the finest ingredients. Indulge in our diverse range of exquisite dining options, from elegant fine dining to relaxed lounges. Impeccable service, curated wine selections, and tantalizing flavors await, ensuring an unforgettable culinary journey that will delight even the most discerning palates.</p>
+                        <button type = "button" class = "btn">Know More</button>
+                    </div>
+                </article>
+                <!-- end of single service -->
+                <!-- single service -->
+                <article class = "service">
+                    <div class = "service-icon">
+                        <span>
+                            <i class = "fas fa-swimming-pool"></i>
+                        </span>
+                    </div>
+                    <div class = "service-content">
+                        <h2>Refreshment</h2>
+                        <p>Dive into a world of ultimate relaxation at our luxurious swimming pool. Surrounded by lush gardens and serene ambiance, our pool offers a refreshing oasis for our esteemed guests. Immerse yourself in the crystal-clear waters or bask in the sun on plush loungers. Enjoy poolside service, savor delectable cocktails, and let our attentive staff cater to your every need. The pool at our hotel is a sanctuary of tranquility and rejuvenation</p>
+                        <button type = "button" class = "btn">Know More</button>
+                    </div>
+                </article>
+                <!-- end of single service -->
+                <!-- single service -->
+                <article class = "service">
+                    <div class = "service-icon">
+                        <span>
+                            <i class = "fas fa-broom"></i>
+                        </span>
+                    </div>
+                    <div class = "service-content">
+                        <h2>Housekeeping</h2>
+                        <p>Our housekeeping services redefine excellence with meticulous attention to detail. Our dedicated team ensures your sanctuary is flawlessly maintained, providing immaculate cleanliness and meticulous organization. From crisp linens to spotless surfaces, every aspect is diligently cared for. Experience the utmost comfort and serenity as our housekeeping professionals discreetly enhance your stay, leaving you with a sense of tranquility and relaxation.</p>
+                        <button type = "button" class = "btn">Know More</button>
+                    </div>
+                </article>
+                <!-- end of single service -->
+                <!-- single service -->
+                <article class = "service">
+                    <div class = "service-icon">
+                        <span>
+                            <i class = "fas fa-door-closed"></i>
+                        </span>
+                    </div>
+                    <div class = "service-content">
+                        <h2>Room Security</h2>
+                        <p>Our hotel ensures top-notch room security, providing peace of mind during your stay. State-of-the-art electronic key card systems and 24/7 surveillance guarantee utmost safety. Each room is equipped with a secure safe, offering protection for your valuable belongings. Our dedicated staff is trained to maintain strict confidentiality, ensuring your privacy is safeguarded at all times.</p>
+                        <button type = "button" class = "btn">Know More</button>
+                    </div>
+                </article>
+                <article class = "service">
+                    <div class = "service-icon">
+                        <span>
+                            <i class = "fas fa-car"></i>
+                        </span>
+                    </div>
+                    <div class = "service-content">
+                        <h2>Vehicle-Parking</h2>
+                        <p>Our hotel offers a distinguished vehicle parking experience, ensuring convenience and security for our esteemed guests. With ample space and attentive valet service, we provide a seamless arrival and departure process. Rest assured that your vehicle will be cared for in a secure environment, allowing you to relax and enjoy your stay with peace of mind.</p>
+                        <button type = "button" class = "btn">Know More</button>
+                    </div>
+                </article>
+                <article class = "service">
+                    <div class = "service-icon">
+                        <span>
+                            <i class = "fas fa-gamepad"></i>
+                        </span>
+                    </div>
+                    <div class = "service-content">
+                        <h2>Indoor-Games</h2>
+                        <p>Experience a world of entertainment within our captivating establishment. Engage in a diverse array of indoor games that cater to every preference and skill level. Challenge friends or family to a thrilling game of billiards, test your strategy in a game of chess, or unwind with a friendly round of cards. Our meticulously curated indoor game facilities ensure endless amusement and leisure for our esteemed guests.</p>
+                        <button type = "button" class = "btn">Know More</button>
+                    </div>
+                </article>
+                <!-- end of single service -->
+            </div>
+        </section>
+
+        <div class = "book">
+            <form class = "book-form">
+                <div class = "form-item">
+                    <label for = "checkin-date">Check In Date: </label>
+                    <input type = "date" id = "chekin-date">
+                </div>
+                <div class = "form-item">
+                    <label for = "checkout-date">Check Out Date: </label>
+                    <input type = "date" id = "chekout-date">
+                </div>
+                <div class = "form-item">
+                    <label for = "adult">Adults: </label>
+                    <input type = "number" min = "1" value = "1" id = "adult">
+                </div>
+                <div class = "form-item">
+                    <label for = "children">Children: </label>
+                    <input type = "number" min = "1" value = "1" id = "children">
+                </div>
+                <div class = "form-item">
+                    <label for = "rooms">Rooms: </label>
+                    <input type = "number" min = "1" value = "1" id = "rooms">
+                </div>
+                <div class = "form-item">
+                    <input type = "submit" class = "btn" value = "Book Now">
+                </div>
+            </form>
+        </div>
+
+        <section class = "rooms sec-width" id = "rooms">
+            <div class = "title">
+                <h2>rooms</h2>
+            </div>
+            <div class = "rooms-container">
+                <!-- single room -->
+                <article class = "room">
+                    <div class = "room-image">
+                        <img src = "images/img1.jpg" alt = "room image">
+                    </div>
+                    <div class = "room-text">
+                        <h3>Single Rooms</h3>
+                        <ul>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                Plush furnishings and elegant decor create a sophisticated ambiance.
+                            </li>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                High-speed Wi-Fi for seamless connectivity.
+                            </li>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                Luxurious attached bathrooms with upscale amenities.
+                            </li>
+                        </ul>
+                        <p>Experience the epitome of comfort and sophistication in our single-bed rooms. Impeccably designed, each room exudes elegance with plush furnishings and stylish decor. Relax and unwind in a spacious sanctuary complete with a lavish en-suite bathroom. Enjoy modern amenities such as high-speed Wi-Fi and a flat-screen TV. Our single-bed rooms offer a serene escape for discerning guests seeking unparalleled luxury and relaxation.</p>
+                        
+                        <p class = "rate">
+                            <span>₹4999.00 /</span> Per Night
+                        </p>
+                        <button type = "button" class = "btn">book now</button>
+                    </div>
+                </article>
+                <!-- end of single room -->
+                <!-- single room -->
+                <article class = "room">
+                    <div class = "room-image">
+                        <img src = "images/img2.jpg" alt = "room image">
+                    </div>
+                    <div class = "room-text">
+                        <h3>Double-Bed Rooms</h3>
+                        <ul>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                Spacious rooms with ample seating and relaxation areas.
+                            </li>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                State-of-the-art entertainment systems with flat-screen TVs.
+                            </li>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                Stunning views of the surrounding landscape or cityscape.
+                            </li>
+                        </ul>
+                        <p>Experience the epitome of comfort and sophistication in our spacious double-bed rooms. Immerse yourself in a haven of tranquility, adorned with plush furnishings and elegant decor. Indulge in the finest amenities, including luxurious bedding, state-of-the-art technology, and a private en-suite bathroom. Relax and unwind in style, enjoying stunning views and impeccable service. Your ultimate retreat awaits in our meticulously designed double-bed rooms.</p>
+                        
+                        <p class = "rate">
+                            <span>₹7999.00 /</span> Per Night
+                        </p>
+                        <button type = "button" class = "btn">book now</button>
+                    </div>
+                </article>
+                <!-- end of single room -->
+                <!-- single room -->
+                <article class = "room">
+                    <div class = "room-image">
+                        <img src = "images/img3.jpg" alt = "room image">
+                    </div>
+                    <div class = "room-text">
+                        <h3>Luxury Rooms/Suites</h3>
+                        <ul>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                Personalized butler service available for a seamless stay.
+                            </li>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                Plush king-sized bed with luxurious linens.
+                            </li>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                Complimentary access to the hotel's fitness and wellness facilities.
+                            </li>
+                        </ul>
+                        <p>Our exceptional rooms and suites redefine elegance and sophistication. Experience a sanctuary of comfort with meticulously curated interiors, plush furnishings, and breathtaking views. Indulge in state-of-the-art technology, luxurious amenities, and personalized service that cater to your every need. Immerse yourself in an atmosphere of refined opulence, where every detail is meticulously crafted to provide an unparalleled experience of absolute indulgence.</p>
+                        
+                        <p class = "rate">
+                            <span>₹14999.00 /</span> Per Night
+                        </p>
+                        <button type = "button" class = "btn">book now</button>
+                    </div>
+                </article>
+                <!-- end of single room -->
+            </div>
+        </section>
+
+
+        <!--start of gallery -->
+        <h1 class="title" id="gallery">Image Gallery</h1>
+        <div class="imghvr">
+        <div class="image-grid">
+            <img id ="img" src="images/i1.jpg" alt="Image 1">
+            <img id ="img" src="images/i2.jpg" alt="Image 2">
+            <img id ="img" src="images/i3.jpg" alt="Image 3">
+            <img id ="img" src="images/i4.jpg" alt="Image 4">
+            <img id ="img" src="images/i5.jpg" alt="Image 5">
+            <img id ="img" src="images/i6.jpg" alt="Image 6">
+            <img id ="img" src="images/i7.jpg" alt="Image 7">
+            <img id ="img" src="images/i9.jpg" alt="Image 8">
+            <img id ="img" src="images/i10.jpg" alt="Image 9">
+            <img id ="img" src="images/i11.jpg" alt="Image 10">
+            <img id ="img" src="images/i12.jpg" alt="Image 11">
+            <img id ="img" src="images/i13.jpg">
+        </div>
+        </div>
+        <!--end of gallery -->
+
+
+        <section class = "customers" id = "customers">
+            <div class = "sec-width">
+                <div class = "title">
+                    <h2>customers</h2>
+                </div>
+                <div class = "customers-container">
+                    <!-- single customer -->
+                    <div class = "customer">
+                        <div class = "rating">
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "far fa-star"></i></span>
+                        </div>
+                        <h3>We Loved it</h3>
+                        <p>"Exquisite accommodations, impeccable service, and lavish amenities make this luxurious hotel a true gem. From stunning decor to personalized attention, every detail exudes opulence. An unforgettable experience awaits at this exclusive destination."</p>
+                        <img src = "images/cus1.jpg" alt = "customer image">
+                        <span>Linds Lee, Hongkong</span>
+                    </div>
+                    <!-- end of single customer -->
+                    <!-- single customer -->
+                    <div class = "customer">
+                        <div class = "rating">
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "far fa-star"></i></span>
+                        </div>
+                        <h3>Comfortable Living</h3>
+                        <p>"Impeccable comfort at its finest. Luxurious bedding, plush amenities, and attentive service surpassed our expectations. Every detail was meticulously designed to ensure a truly indulgent experience. A haven of relaxation and tranquility."</p>
+                        <img src = "images/cus2.jpg" alt = "customer image">
+                        <span>Niyuki, Japan</span>
+                    </div>
+                    <!-- end of single customer -->
+
+                    <!-- single customer -->
+                    <div class = "customer">
+                        <div class = "rating">
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "far fa-star"></i></span>
+                        </div>
+                        <h3>Nice Place</h3>
+                        <p>"The serene ambiance and eco-friendly initiatives of this luxury hotel create a truly sustainable retreat. From their lush greenery to energy-efficient practices, it's an enchanting haven that blends opulence with environmental responsibility. A perfect escape."</p>
+                        <img src = "images/cus3.jpg" alt = "customer image">
+                        <span>Robert J.fury, USA</span>
+                    </div>
+                    <!-- end of single customer -->
+                    
+                </div>
+            </div>
+        </section>
+        <!-- end of body content -->
+
+
+
+        <!-- footer -->
+        <footer class = "footer">
+            <div class = "footer-container">
+                <div>
+                    <h2>About Us </h2>
+                    <p>Welcome to The Grand-INN, where elegance meets opulence. Nestled in the heart of Bhubaneswar, our exquisite establishment offers an unparalleled experience of refined comfort and impeccable service. Allow us to exceed your expectations and create unforgettable memories during your stay with us.</p>
+                    <ul class = "social-icons">
+                        <li class = "flex">
+                            <i class = "fa fa-twitter fa-2x"></i>
+                        </li>
+                        <li class = "flex">
+                            <i class = "fa fa-facebook fa-2x"></i>
+                        </li>
+                        <li class = "flex">
+                            <i class = "fa fa-instagram fa-2x"></i>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h2>Useful Links</h2>
+                    <a href = "#">Blog</a>
+                    <a href = "#">Rooms</a>
+                    <a href = "#">Subscription</a>
+                    <a href = "#">Gift Card</a>
+                </div>
+
+                <div>
+                    <h2>Privacy</h2>
+                    <a href = "#">Career</a>
+                    <a href = "#">About Us</a>
+                    <a href = "#">Contact Us</a>
+                    <a href = "#">Services</a>
+                </div>
+
+                <div>
+                    <h2>Have A Question</h2>
+                    <div class = "contact-item">
+                        <span>
+                            <i class = "fas fa-map-marker-alt"></i>
+                        </span>
+                        <span>
+                            Sector 409 Dhyanchand street, Bhubaneswar, Odisha, India                       </span>
+                    </div>
+                    <div class = "contact-item">
+                        <span>
+                            <i class = "fas fa-phone-alt"></i>
+                        </span>
+                        <span>
+                            +91 98703XXXXX
+                        </span>
+                    </div>
+                    <div class = "contact-item">
+                        <span>
+                            <i class = "fas fa-envelope"></i>
+                        </span>
+                        <span>
+                            myhotel@hotel.com
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- end of footer -->
+
+
+        <script src="script.js"></script>
+    </body>
+</html>
